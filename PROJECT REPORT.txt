@@ -1,0 +1,40 @@
+📑 Project Report (Problem, Solution, Outcome)
+🏷️ Project Title:
+Healthcare Management System Using SQL
+
+🔍 Problem Statement:
+Modern-day hospitals come across many hurdles in maintain real-time availability of doctors, recording bed occupancy with accuracy, and in helping patients locate a pharmacy with requisite medicine. Lack of a centralized and dynamically operating system in periods of high stress, such as pandemics or emergency situations, leads to care getting delayed, resources being mismatched, and general confusion.
+
+✅ Proposed Solution:
+The project is essentially a Healthcare Management System built on SQL which aims at providing a real-time, structured, and automated backend system for hospital and pharmacy operations comprising:
+
+Doctor Availability Tracking: A stored procedure returns the list of doctors present at this very moment based on live time.
+
+Bed Usage Log Auto Update: Triggers auto update available_beds in Hospitals table when a new bed log is inserted or updated.
+
+Medicine Stock Checker: Stored procedure to search medicine availability across all pharmacies by name.
+
+Nearest Pharmacy View: Simple view to get all pharmacies in a given city and area.
+
+Well-Defined ER Diagram: With: Designed with normalized relations and foreign key integrity, supporting scalability.
+
+🌍 Real-World Impact:
+Helps ensure quick response during health crises.
+
+Emergency dispatchers use this to pinpoint hospitals with vacant beds.
+
+Helps patients or staff in locating medicine stock without manual telephone calls.
+
+Lays the foundation for a hospital dashboard accessible via a website or mobile device.
+
+It can be further expanded to introduce user logins, appointment scheduling, billing, and inventory-related alerts.
+
+🧠 Tools Used:
+Database: MySQL 8.0
+
+Design: MySQL Workbench (ER Diagram)
+
+SQL Concepts: Joins, Views, Triggers, Stored Procedures, Constraints
+
+📌 Conclusion:
+The project can provide a scalable backend model for the real-world healthcare system and can act as a solid foundation for further development of integrated hospital or pharmaceutical application software.
