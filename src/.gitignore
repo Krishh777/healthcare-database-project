@@ -1,0 +1,81 @@
+# === Python Bytecode ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# === Python Virtual Environments ===
+env/
+venv/
+ENV/
+VENV/
+.venv/
+*.env
+
+# === Python Packaging ===
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# === PyCharm Project Files ===
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# === VSCode ===
+.vscode/
+!.vscode/extensions.json
+
+# === Logs ===
+logs/
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# === Testing / Coverage ===
+.tox/
+.nox/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# === DB Files ===
+*.sqlite3
+db.sqlite3
+
+# === Jupyter Notebooks ===
+.ipynb_checkpoints/
+
+# === macOS / Windows System Files ===
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# === JavaScript / Node ===
+node_modules/
+dist/
+build/
+*.local
+
+# === npm / yarn / pnpm Logs ===
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
